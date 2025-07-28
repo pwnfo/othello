@@ -10,12 +10,10 @@ Othello Malware é um programa simples que usa engenharia social para carregar e
 O programa, por padrão, funciona apenas em máquinas Windows. Foi testado no Windows 10 x64 com Microsoft Defender.
 
 --- Vestígios deixados na máquina ---
-
 1. Uma chave de registro é criada para permitir que o malware (othello.exe) seja executado automaticamente na inicialização.
 2. Um arquivo DAT (C:/Users/Public/othelloruntime.dat) é usado para verificar se a máquina foi reiniciada desde a última execução do programa.
 
 --- Arquivos ---
-
 ./sh3llc0ode.h: header simples contendo o shellcode executado pelo programa final.
 ./othello.c: código C principal.
 ./Makefile: arquivo usado para compilar o programa (testado em WSL do Kali Linux).
