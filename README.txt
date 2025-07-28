@@ -7,7 +7,7 @@ Othello Malware é um programa simples que usa engenharia social para carregar e
 3. Após um tempo (3 minutos, por padrão), na esperança de que o antivírus foi desativado, o programa tenta carregar e executar um shellcode malicioso na memória.
 
 --- Ambiente compatível ---
-1. O programa, por padrão, funciona apenas em máquinas Windows. Foi testado no Windows 10 x64 com Microsoft Defender.
+O programa, por padrão, funciona apenas em máquinas Windows. Foi testado no Windows 10 x64 com Microsoft Defender.
 
 --- Vestígios deixados na máquina ---
 
