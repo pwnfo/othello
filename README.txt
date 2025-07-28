@@ -14,6 +14,6 @@ O programa, por padrão, funciona apenas em máquinas Windows. Foi testado no Wi
 2. Um arquivo DAT (C:/Users/Public/othelloruntime.dat) é usado para verificar se a máquina foi reiniciada desde a última execução do programa.
 
 --- Arquivos ---
-./sh3llc0ode.h: header simples contendo o shellcode executado pelo programa final.
+./sh3llc0de.h: header simples contendo o shellcode executado pelo programa final.
 ./othello.c: código C principal.
 ./Makefile: arquivo usado para compilar o programa (testado em WSL do Kali Linux).
